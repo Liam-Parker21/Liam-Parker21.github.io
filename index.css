@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  box-sizing: border-box;
+}
+
+.myTitle {
+  background: black;
+  color: white;
+  font-size: x-large;
+  border: solid 5px red;
+}
+
+.myTitle h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myTitle h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageTop {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.hero {
+  background: white;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+.imageBottom {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.schoolIcon {
+  width: 90px;
+  cursor: default;
+
+}
+
+.soccerIcon {
+  width: 90px;
+  cursor: default;
+
+}
+
+.rangerDUI {
+  width: 90px;
+  cursor: default;
+
+}
+
+.doctorIcon {
+  width: 90px;
+  cursor: default;
+}
+
+div ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 35px;
+}
+
+div ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+div ul li a {
+  color: black;
+  size: 200px;
+  border-bottom: solid 5px black;
+  cursor: pointer;
+
+}
+
+div ul li a:hover {
+  color: blue;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+}
+
+.openingText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font: fantasy;
+}
+.chosenClass {
+  margin: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
