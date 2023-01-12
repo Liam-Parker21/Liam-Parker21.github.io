@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link rel="stylesheet" href="index.css">
 <body>
     <title>Bio Webpage</title>
 
@@ -41,7 +42,44 @@
     <br />
     <br />
   </body>
+    </body>
+   <script>
+       const eduTab = document.getElementById("eduTab")
 
-</body>
-</head>
+eduTab.addEventListener("click", () => {
+const eduContent = document.getElementById("chosenContent")
+eduContent.innerHTML = ""
+const eduPara = document.createElement("div")
+eduPara.innerHTML = "Growing up in West Michigan, I attended Fruitport HighShool, graduating in 2017. Shortly after graduation I moved to Ann Arbor to attend Washtenaw Community College where I took classes in Exercise Science, Psychology, and Economics. After my second semester I decided that I was done with school and began to take less and less classes. Closing out my first round of schooling, I ended with 44 credit hours. Since enlisting in the Army, I have obtained certifications in TacLan systems as well as Comptia's Security+. At this time I have been taking my own courses on DigitalUniversity and plan to begin traditional schooling here shortly."
+eduContent.appendChild(eduPara)
+})
+const sportsTab = document.getElementById("sportsTab")
+sportsTab.addEventListener("click", () => {
+const sportsContent = document.getElementById("chosenContent")
+sportsContent.innerHTML = ""
+const sportsPara = document.createElement("div")
+sportsPara.innerHTML = "Growing up, I was always playing soccer, it was a family trait, while in highschool, I recieved All Confrence and All District Honors which lead me to playing in college and eventually on a Semi-Professional Team in Eastern Michigan. Aside from soccer, I ran track and did BMX in the summer and snowboarding in the winter. Today, I still play on a co-ed soccer team with my wife and we occasionally snowboard when possible."
+sportsContent.appendChild(sportsPara)
+})
+const careerTab = document.getElementById("careerTab")
+careerTab.addEventListener("click", () => {
+const careerContent = document.getElementById("chosenContent")
+careerContent.innerHTML = ""
+const careerPara = document.createElement("div")
+careerPara.innerHTML = "Work: I have been in the Army since summer of 2019. Currently I am a Information Technology Specialist serving in the 75th Ranger Regiment"
+const familyPara = document.createElement("div")
+familyPara.innerHTML
+careerContent.appendChild(careerPara)
+})
+const goalsTab = document.getElementById("goalsTab")
+goalsTab.addEventListener("click", () => {
+const goalsContent = document.getElementById("chosenContent")
+goalsContent.innerHTML = ""
+const goalsPara = document.createElement("div")
+goalsPara.innerHTML = "Test Goals"
+goalsContent.appendChild(goalsPara)
+)
+       
+   </script>
+                                               
 </html>
